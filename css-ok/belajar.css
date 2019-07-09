@@ -160,7 +160,13 @@ h6 {
 .main-home-two .box-tes {
     height:180px;
 }
-/*End Main*/
+
+.main-one {
+    float: left;
+    overflow: auto;
+    width=70%;
+}
+/* End Main*/
 /* Start Box*/
 .box-heading {
     background-color: rgb(201, 209, 223);
