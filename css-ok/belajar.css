@@ -1,0 +1,277 @@
+
+/* Start Google Font */
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
+/* End Google Font*/
+/* Selector */
+body   {
+    /* Property */
+    background-color: whitesmoke;
+    color: black;
+} 
+
+h1{
+    color: rgb(21, 21, 182);
+    font-family: Signika, Helvetica, sans-serif;
+}
+
+.kapital {
+    text-transform: uppercase;
+}
+
+.white {
+    background-color: white;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: rgb(91, 149, 224);
+    background-image: url("../foto/super-market.jpg");
+    width: 100%;
+}
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 95%;
+}
+
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+.test {
+    background-image: url("../foto/super-market.jpg") 
+}
+
+.blue {
+    background-color: rgb(194, 194, 199);
+    width: 95%;
+}
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: rgb(41, 41, 156);
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgb(194, 194, 199),
+        0 6px 10px 0 rgb(194, 194, 199) ,
+        0 1px 18px 0 rgb(194, 194, 199);
+}
+.menu-primer li {
+    border-right: 1px solid rgb(91, 91, 204);
+    display: inline-block;
+    margin: 0 -4px;
+}
+
+.menu-primer a {
+    color : white;
+    font-size: 15px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-family: monospace;
+       
+}
+
+.menu-primer a:hover {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+
+}
+.menu-primer .active {
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+}
+/* End Menu Primer*/
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+
+/* End Heading */
+
+/* Start Jumbotron*/
+.jumbotron {
+    background-color: rgb(238, 247, 247);
+    border: 1px solid rgb(193, 206, 231);
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron*/
+
+/*Start Main*/
+.main-home-one{
+        float: left;
+        width:49.5%;
+}
+.main-home-two {
+        float: right;
+        width: 49.5%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi {
+    height: 120px;
+}
+
+.main-home-one .box-tes,
+.main-home-two .box-tes {
+    height:180px;
+}
+/*End Main*/
+/* Start Box*/
+.box-heading {
+    background-color: rgb(201, 209, 223);
+    border: 1px solid rgb(204, 204, 221);
+    border-radius: 3px 3px 0 0;
+    padding: 10px 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.box-heading h4 {
+    font-size: 14px;
+    margin:0;
+}
+
+.box-isi {
+    background-color: white;
+    border: 1px solid rgb(204, 204, 221);
+    border-top: 0;
+    padding: 10px 20px;
+    margin: 0;
+
+}
+
+.box-tes {
+    background-color: white;
+    border: 1px solid rgb(204, 204, 221);
+    border-top: 0;
+    padding: 10px 20px;
+    margin: 0;
+}
+/* End Box*/
+
+/*Start Testimonial*/
+.testimonial {
+    border-left: 4px solid #dfe2e5;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/*End Testimonial*/
+
+/*Start Menu Sekunder*/
+
+.menu-sekunder {
+    background-color:#acc8dd57;
+    border: 1 px solid rgb(221, 221, 230);
+    border-top: 1 px solid #9fa9b9;
+    overflow: auto;
+    padding: 10px 0;
+
+}
+
+.menu-sekunder h4 {
+    font-size: 14px;
+    margin:0 auto;
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul {
+    padding: 0;
+}
+
+.menu-sekunder li {
+    list-style: disc;
+
+}
+
+.menu-sekunder li a,
+.menu-sekunder p {
+    font-size: 17px;
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+    float: left;
+}
+
+.menu-sekunder-one {
+    width: 40%;
+}
+
+.menu-sekunder-two {
+    width: 30%
+}
+
+.menu-sekunder-three {
+    width: 30%
+}
+
+.menu-sekunder li img {
+    vertical-align: middle;
+}
+/*End Menu Sekunder*/
+
+/*Start Copyright*/
+.copyright p{
+    font-size: 15px;
+}
+/*End Copyright*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
