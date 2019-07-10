@@ -167,6 +167,15 @@ h6 {
     width=70%;
 }
 /* End Main*/
+
+/* Start Sidebar */
+.sidebar-two {
+    float: right;
+    overflow: auto;
+    width=30%;
+}
+/* End Sidebar */
+
 /* Start Box*/
 .box-heading {
     background-color: rgb(201, 209, 223);
@@ -208,6 +217,60 @@ h6 {
 }
 /*End Testimonial*/
 
+/*Start Table*/
+.layanan-table {
+    border: 1 px solid #d1d5da;
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+    
+}
+.layanan-table th  {
+    background-color: #d9e6f3;
+}
+.layanan-table td {
+    text-align: center;
+
+}
+/*End Table*/
+
+/* Start Form */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+        color:#888888;
+        font-weight: 300;
+}
+
+input[type="submit"],
+.button {
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg, #fafbfc 0%, #eff3f6 90%);
+    border: 1 px solid rgba(27, 31, 35, 0.2);
+    border-radius: 4px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* End Form */
+
+/* Start Contact Form */
+.contact-form div {
+    margin: 20px 0;
+
+}
+/* End Contact Form */
 /*Start Menu Sekunder*/
 
 .menu-sekunder {
